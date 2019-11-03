@@ -1,0 +1,13 @@
+
+<resources>
+    <string name="app_name">First App</string>
+    <string name="button_send">Send</string>
+    <string name="edit_message">Enter a menssage</string>
+    <string name="title_activity_json">JsonActivity</string>
+    <string name="departament">Departament Name</string>
+    <string name="description">Description</string>
+    <string name="inauguration_year">Inauguration Year</string>
+    <string name="name">Name</string>
+    <string name="go_to_fragments">Go To Fragments</string>
+    <string name="show_json">Show Json</string>
+</resources>

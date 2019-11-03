@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">First App</string>
-    <string name="button_send">Send</string>
-    <string name="edit_message">Enter a menssage</string>
-    <string name="title_activity_json">JsonActivity</string>
-    <string name="departament">Departament Name</string>
-    <string name="description">Description</string>
-    <string name="inauguration_year">Inauguration Year</string>
-    <string name="name">Name</string>
+    <string name="app_name">Primeiro App</string>
+    <string name="button_send">Enviar</string>
+    <string name="edit_message">Escrever Mensagem</string>
+    <string name="title_activity_json">Json Teste</string>
+    <string name="departament">Departamento</string>
+    <string name="description">Descrição</string>
+    <string name="inauguration_year">Ano de Inauguração</string>
+    <string name="name">Nome</string>
+    <string name="go_to_fragments">Fragmentos</string>
+    <string name="show_json">Mostrar Json</string>
 </resources>

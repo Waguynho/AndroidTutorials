@@ -1,4 +1,4 @@
-package com.sample.myfirstapp;
+package com.sample.firstapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.sample.firstapp.fragments.UpViewFragment;
+import com.sample.myfirstapp.R;
+
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "MESSAGE";
@@ -16,8 +19,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btnShowJson =  findViewById(R.id.btn_json_view);
+        initViewComponents();
+    }
+
+    private void initViewComponents() {
+        Button btnShowJson = findViewById(R.id.btn_json_view);
         btnShowJson.setOnClickListener(this::showJson);
+
+        Button btnFragments = findViewById(R.id.btn_go_to_fragments);
+        btnFragments.setOnClickListener(this::goToFragments);
     }
 
     public void sendMessage(View view) {
@@ -31,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
     public void showJson(View view) {
         Intent intent = new Intent(this, JsonActivity.class);
         startActivity(intent);
+    }
+
+    public void goToFragments(View view) {
+        Intent contentFragments = new Intent(this, ContentFragments.class);
+        startActivity(contentFragments);
     }
 
 }

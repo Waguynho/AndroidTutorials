@@ -1,4 +1,4 @@
-package com.sample.myfirstapp;
+package com.sample.firstapp;
 
 import android.os.Bundle;
 import android.widget.EditText;
@@ -10,7 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.sample.myfirstapp.com.sample.myfirstapp.models.Departament;
+import com.sample.myfirstapp.R;
+import com.sample.firstapp.com.sample.myfirstapp.models.Departament;
 
 public class JsonActivity extends AppCompatActivity {
 

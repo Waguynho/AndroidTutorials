@@ -1,4 +1,4 @@
-package com.sample.myfirstapp.com.sample.myfirstapp.models;
+package com.sample.firstapp.com.sample.myfirstapp.models;
 
 public class Departament {
     public  String Name;
