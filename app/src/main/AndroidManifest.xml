@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.sample.firstapp.ContentFragments"></activity>
+        <activity android:name="com.sample.firstapp.fragments.ItemRecycleViewActivity"></activity>
+        <activity android:name="com.sample.firstapp.AndroidComponentsActivity" />
+        <activity android:name="com.sample.firstapp.ContentFragments" />
         <activity android:name="com.sample.firstapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +22,7 @@
         <activity
             android:name="com.sample.firstapp.JsonActivity"
             android:label="@string/title_activity_json"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.sample.firstapp.DisplayMessageActivity"
             android:parentActivityName="com.sample.firstapp.MainActivity">
@@ -34,8 +35,7 @@
         <activity
             android:name="com.sample.firstapp.fragments.UpViewFragment"
             android:label="@string/go_to_fragments"
-            android:theme="@style/AppTheme">
-        </activity>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

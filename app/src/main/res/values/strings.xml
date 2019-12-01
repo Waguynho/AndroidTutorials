@@ -9,4 +9,6 @@
     <string name="name">Nome</string>
     <string name="go_to_fragments">Fragmentos</string>
     <string name="show_json">Mostrar Json</string>
+    <string name="android_components">Android Componentes</string>
+    <string name="lists">Lists/RecycleView</string>
 </resources>
