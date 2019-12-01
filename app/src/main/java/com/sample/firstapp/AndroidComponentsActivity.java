@@ -73,5 +73,8 @@ public class AndroidComponentsActivity extends AppCompatActivity {
         departaments.add(new Departament("Departament C"));
         departaments.add(new Departament("Departament D"));
         departaments.add(new Departament("Departament E"));
+
+        for (int index = 0; index < 1000; index++){
+            departaments.add(new Departament("Departament "+index));        }
     }
 }
